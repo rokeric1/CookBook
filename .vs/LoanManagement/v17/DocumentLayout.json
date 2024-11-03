@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D830C0CF-745E-49EE-9520-25BA0DC78255}|LoanManagement\\LoanManagement.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs2024\\vvs-vjezbe\\loanmanagement\\loanmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D830C0CF-745E-49EE-9520-25BA0DC78255}|LoanManagement\\LoanManagement.csproj|solutionrelative:loanmanagement\\loanmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 220,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoanManagement",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\LoanManagement\\LoanManagement.csproj",
+              "RelativeDocumentMoniker": "LoanManagement\\LoanManagement.csproj",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\LoanManagement\\LoanManagement.csproj",
+              "RelativeToolTip": "LoanManagement\\LoanManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T06:21:43.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

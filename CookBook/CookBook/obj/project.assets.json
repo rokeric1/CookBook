@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\CookBook\\CookBook\\CookBook.csproj",
+      "projectUniqueName": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS2024\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
       "projectName": "CookBook",
-      "projectPath": "C:\\Users\\User\\Desktop\\CookBook\\CookBook\\CookBook.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\CookBook\\CookBook\\obj\\",
+      "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS2024\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+      "packagesPath": "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS2024\\VVS-vjezbe\\CookBook\\CookBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Umihana Šečunović\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
