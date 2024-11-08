@@ -27,3 +27,18 @@ C:\Users\Umihana Šečunović\OneDrive\Radna površina\VVS2024\VVS-vjezbe\CookBo
 C:\Users\Umihana Šečunović\OneDrive\Radna površina\VVS2024\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.pdb
 C:\Users\Umihana Šečunović\OneDrive\Radna površina\VVS2024\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.genruntimeconfig.cache
 C:\Users\Umihana Šečunović\OneDrive\Radna površina\VVS2024\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\ref\CookBook.dll
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.exe
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.deps.json
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.runtimeconfig.json
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.dll
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.pdb
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.AssemblyInfo.cs
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.sourcelink.json
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.dll
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\refint\CookBook.dll
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.pdb
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.genruntimeconfig.cache
+C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\ref\CookBook.dll

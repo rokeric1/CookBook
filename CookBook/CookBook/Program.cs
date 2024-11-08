@@ -2,161 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.Json;
-using System.Xml.Serialization;
-
-public class Recipe
-{
-    int id;
-    string naziv;
-    List<string> sastojci;
-    string kategorija;
-    int vrijemePripreme;
-    string upute;
-    int popularnost;
-
-    public Recipe()
-    {
-        sastojci = new List<string>();
-    }
-
-    public Recipe(int id, string naziv, List<string> sastojci, string kategorija, int vrijemePripreme, string upute, int popularnost)
-    {
-        this.id = id;
-        this.naziv = naziv;
-        this.sastojci = sastojci;
-        this.kategorija = kategorija;
-        this.vrijemePripreme = vrijemePripreme;
-        this.upute = upute;
-        this.popularnost = popularnost;
-    }
-
-    public int GetId() => id;
-    public string GetNaziv() => naziv;
-    public List<string> GetSastojci() => sastojci;
-    public string GetKategorija() => kategorija;
-    public int GetVrijemePripreme() => vrijemePripreme;
-    public string GetUpute() => upute;
-    public int GetPopularnost() => popularnost;
-
-    public void SetNaziv(string naziv) => this.naziv = naziv;
-    public void SetSastojci(List<string> sastojci) => this.sastojci = sastojci;
-    public void SetKategorija(string kategorija) => this.kategorija = kategorija;
-    public void SetVrijemePripreme(int vrijeme) => this.vrijemePripreme = vrijeme;
-    public void SetUpute(string upute) => this.upute = upute;
-    public void SetPopularnost(int popularnost) => this.popularnost = popularnost;
-
-    public override string ToString()
-    {
-        string sastojciString = string.Join(", ", sastojci);
-        return $"Naziv: {naziv}\nSastojci: {sastojciString}\nKategorija: {kategorija}\nVrijeme pripreme: {vrijemePripreme} min\nUpute: {upute}\nPopularnost: {popularnost}";
-    }
-}
-
-public class RecipeNotFoundException : Exception
-{
-    public RecipeNotFoundException(string naziv)
-        : base($"Recept sa nazivom '{naziv}' nije pronađen.")
-    {
-    }
-}
-
-public class RecipeManager
-{
-    List<Recipe> recepti = new List<Recipe>();
-
-    public void DodajRecept(Recipe recept) => recepti.Add(recept);
-
-    public void ObrisiRecept(string naziv)
-    {
-        var recept = recepti.FirstOrDefault(r => r.GetNaziv().Equals(naziv, StringComparison.OrdinalIgnoreCase));
-        if (recept == null) throw new RecipeNotFoundException(naziv);
-        recepti.Remove(recept);
-    }
-
-    public Recipe GetRecept(string naziv)
-    {
-        var recept = recepti.FirstOrDefault(r => r.GetNaziv().Equals(naziv, StringComparison.OrdinalIgnoreCase));
-        if (recept == null) throw new RecipeNotFoundException(naziv);
-        return recept;
-    }
-
-    public List<Recipe> GetRecepti() => recepti;
-}
-
-public class DataExportImportService
-{
-    public void EksportujRecepte(string format, List<string> recepti)
-    {
-        if (format.Equals("JSON", StringComparison.OrdinalIgnoreCase))
-        {
-            ExportToJson(recepti);
-        }
-        else if (format.Equals("XML", StringComparison.OrdinalIgnoreCase))
-        {
-            ExportToXml(recepti);
-        }
-        else
-        {
-            throw new ArgumentException("Nepodržan format: " + format);
-        }
-    }
-
-    private void ExportToJson(List<string> recepti)
-    {
-        var options = new JsonSerializerOptions { WriteIndented = true };
-        File.WriteAllText("recepti.json", JsonSerializer.Serialize(recepti, options));
-        Console.WriteLine("Recepti su uspješno eksportovani u JSON format.");
-    }
-
-    private void ExportToXml(List<string> recepti)
-    {
-        var serializer = new XmlSerializer(typeof(List<string>));
-        using var writer = new FileStream("recepti.xml", FileMode.Create);
-        serializer.Serialize(writer, recepti);
-        Console.WriteLine("Recepti su uspješno eksportovani u XML format.");
-    }
-
-    public List<string> ImportFromJson()
-    {
-        var jsonData = File.ReadAllText("recepti.json");
-        return JsonSerializer.Deserialize<List<string>>(jsonData) ?? new List<string>();
-    }
-
-    public List<string> ImportFromXml()
-    {
-        var serializer = new XmlSerializer(typeof(List<string>));
-        using var reader = new FileStream("recepti.xml", FileMode.Open);
-        return (List<string>)serializer.Deserialize(reader) ?? new List<string>();
-    }
-}
-
-public class AuthenticationService
-{
-    Dictionary<string, string> korisnici = new();
-
-    public bool RegistrujKorisnika(string korisnickoIme, string lozinka)
-    {
-        if (korisnici.ContainsKey(korisnickoIme)) return false;
-        korisnici[korisnickoIme] = HashLozinka(lozinka);
-        return true;
-    }
-
-    public bool AutentifikujKorisnika(string korisnickoIme, string lozinka)
-    {
-        if (!korisnici.TryGetValue(korisnickoIme, out string hashedLozinka)) return false;
-        return HashLozinka(lozinka) == hashedLozinka;
-    }
-
-    private string HashLozinka(string lozinka)
-    {
-        using var sha256Hash = SHA256.Create();
-        byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(lozinka));
-        return BitConverter.ToString(bytes).Replace("-", "").ToLower();
-    }
-}
 
 class Program
 {
@@ -252,6 +97,7 @@ class Program
         }
     }
 
+
     static void DodajRecept(RecipeManager recipeManager)
     {
         Console.Write("Naziv recepta: ");
@@ -276,6 +122,7 @@ class Program
         recipeManager.DodajRecept(recept);
         Console.WriteLine("Recept je uspješno dodan.");
     }
+
 
     static void AzurirajRecept(RecipeManager recipeManager)
     {
@@ -321,6 +168,7 @@ class Program
         }
     }
 
+
     static void ObrisiRecept(RecipeManager recipeManager)
     {
         Console.Write("Unesite naziv recepta za brisanje: ");
@@ -336,6 +184,7 @@ class Program
             Console.WriteLine(e.Message);
         }
     }
+
 
     static void PrikaziRecepte(RecipeManager recipeManager)
     {
@@ -354,6 +203,7 @@ class Program
         }
     }
 
+
     static void PretraziRecepte(RecipeManager recipeManager)
     {
         Console.Write("Unesite naziv recepta za pretragu: ");
@@ -371,6 +221,7 @@ class Program
         }
     }
 
+
     static void IzveziRecepte(RecipeManager recipeManager, DataExportImportService dataService)
     {
         Console.Write("Odaberite format (JSON/XML): ");
@@ -386,6 +237,7 @@ class Program
             Console.WriteLine(e.Message);
         }
     }
+
 
     static void UveziRecepte(RecipeManager recipeManager, DataExportImportService dataService)
     {

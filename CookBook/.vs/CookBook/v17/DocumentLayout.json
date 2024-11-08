@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\CookBook\\",
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CookBook\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\korisnik\\documents\\_________\\iii godina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\korisnik\\documents\\_________\\iii godina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\korisnik\\documents\\_________\\iii godina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\cookbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\cookbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\korisnik\\documents\\_________\\iii godina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\dataexportimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\dataexportimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataExportImportService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\DataExportImportService.cs",
+              "RelativeDocumentMoniker": "CookBook\\DataExportImportService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\DataExportImportService.cs",
+              "RelativeToolTip": "CookBook\\DataExportImportService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T17:41:04.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CookBook",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+              "RelativeDocumentMoniker": "CookBook\\CookBook.csproj",
+              "ToolTip": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+              "RelativeToolTip": "CookBook\\CookBook.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-08T17:31:39.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\Recipe.cs",
+              "RelativeDocumentMoniker": "CookBook\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\Recipe.cs",
+              "RelativeToolTip": "CookBook\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T17:11:48.211Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
               "RelativeDocumentMoniker": "CookBook\\Program.cs",
-              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\VVS2024\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
               "RelativeToolTip": "CookBook\\Program.cs",
-              "ViewState": "AgIAAFABAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T22:20:53.28Z",
               "EditorCaption": ""
