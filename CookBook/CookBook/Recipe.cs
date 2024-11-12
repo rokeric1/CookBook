@@ -1,12 +1,12 @@
 ﻿public class Recipe
 {
-    int id;
-    string naziv;
-    List<string> sastojci;
-    string kategorija;
-    int vrijemePripreme;
-    string upute;
-    int popularnost;
+    public int id { get; set; }
+    public string naziv { get; set; }
+    public List<string> sastojci { get; set; }
+    public string kategorija { get; set; }
+    public int vrijemePripreme { get; set; }
+    public string upute { get; set; }
+    public int popularnost { get; set; }
 
     public Recipe()
     {

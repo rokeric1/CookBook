@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 public class DataExportImportService
 {
-    public void EksportujRecepte(string format, List<string> recepti)
+    public void EksportujRecepte(string format, List<Recipe> recepti)
     {
         if (format.Equals("JSON", StringComparison.OrdinalIgnoreCase))
         {
@@ -19,31 +19,31 @@ public class DataExportImportService
         }
     }
 
-    private void ExportToJson(List<string> recepti)
+    private void ExportToJson(List<Recipe> recepti)
     {
         var options = new JsonSerializerOptions { WriteIndented = true };
-        File.WriteAllText("recepti.json", JsonSerializer.Serialize(recepti, options));
+        File.WriteAllText("receptiExport.json", JsonSerializer.Serialize(recepti, options));
         Console.WriteLine("Recepti su uspješno eksportovani u JSON format.");
     }
 
-    private void ExportToXml(List<string> recepti)
+    private void ExportToXml(List<Recipe> recepti)
     {
-        var serializer = new XmlSerializer(typeof(List<string>));
+        var serializer = new XmlSerializer(typeof(List<Recipe>));
         using var writer = new FileStream("recepti.xml", FileMode.Create);
         serializer.Serialize(writer, recepti);
         Console.WriteLine("Recepti su uspješno eksportovani u XML format.");
     }
 
-    public List<string> ImportFromJson()
+    public List<Recipe> ImportFromJson()
     {
         var jsonData = File.ReadAllText("recepti.json");
-        return JsonSerializer.Deserialize<List<string>>(jsonData) ?? new List<string>();
+        return JsonSerializer.Deserialize<List<Recipe>>(jsonData) ?? new List<Recipe>();
     }
 
-    public List<string> ImportFromXml()
+    public List<Recipe> ImportFromXml()
     {
-        var serializer = new XmlSerializer(typeof(List<string>));
+        var serializer = new XmlSerializer(typeof(List<Recipe>));
         using var reader = new FileStream("recepti.xml", FileMode.Open);
-        return (List<string>)serializer.Deserialize(reader) ?? new List<string>();
+        return (List<Recipe>)serializer.Deserialize(reader) ?? new List<Recipe>();
     }
 }

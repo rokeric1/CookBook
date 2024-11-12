@@ -42,3 +42,18 @@ C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBoo
 C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.pdb
 C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.genruntimeconfig.cache
 C:\Users\Korisnik\Documents\_________\III Godina\VVS\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\ref\CookBook.dll
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.AssemblyInfoInputs.cache
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.AssemblyInfo.cs
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.csproj.CoreCompileInputs.cache
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.sourcelink.json
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.dll
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\refint\CookBook.dll
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.pdb
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.exe
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.deps.json
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.runtimeconfig.json
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.dll
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\bin\Debug\net8.0\CookBook.pdb
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\CookBook.genruntimeconfig.cache
+C:\Users\nedim\Desktop\VVS-vjezbe\CookBook\CookBook\obj\Debug\net8.0\ref\CookBook.dll

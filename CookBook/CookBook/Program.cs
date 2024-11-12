@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 
 class Program
 {
@@ -16,7 +13,7 @@ class Program
         Console.Write("Unesite korisničko ime za registraciju: ");
         string username = Console.ReadLine() ?? "";
         Console.Write("Unesite lozinku za registraciju: ");
-        string password = Console.ReadLine() ?? "";
+        string password = authService.ReadPassword();
 
         if (authService.RegistrujKorisnika(username, password))
         {
@@ -36,7 +33,7 @@ class Program
             Console.Write("Korisničko ime: ");
             string loginUsername = Console.ReadLine() ?? "";
             Console.Write("Lozinka: ");
-            string loginPassword = Console.ReadLine() ?? "";
+            string loginPassword = authService.ReadPassword();
 
             if (authService.AutentifikujKorisnika(loginUsername, loginPassword))
             {
@@ -60,6 +57,8 @@ class Program
             Console.WriteLine("5. Pretraži recepte po nazivu");
             Console.WriteLine("6. Izvezi recepte (JSON/XML)");
             Console.WriteLine("7. Uvezi recepte (JSON/XML)");
+            Console.WriteLine("8. Filtriraj recepte po svojstvima");
+            Console.WriteLine("9. Prikaži sve kategorije");
             Console.WriteLine("0. Izlaz");
             Console.Write("Vaš izbor: ");
             string choice = Console.ReadLine();
@@ -67,25 +66,31 @@ class Program
             switch (choice)
             {
                 case "1":
-                    Servisi.DodajRecept(recipeManager);
+                    UI.DodajReceptUI(recipeManager);
                     break;
                 case "2":
-                    Servisi.AzurirajRecept(recipeManager);
+                    UI.AzurirajReceptUI(recipeManager);
                     break;
                 case "3":
-                    Servisi.ObrisiRecept(recipeManager);
+                    UI.ObrisiReceptUI(recipeManager);
                     break;
                 case "4":
-                    Servisi.PrikaziRecepte(recipeManager);
+                    UI.PrikaziSveRecepte(recipeManager);
                     break;
                 case "5":
-                    Servisi.PretraziRecepte(recipeManager);
+                    UI.PretraziRecepteUI(recipeManager);
                     break;
                 case "6":
-                    Servisi.IzveziRecepte(recipeManager, dataService);
+                    UI.IzveziRecepteUI(recipeManager, dataService);
                     break;
                 case "7":
-                    Servisi.UveziRecepte(recipeManager, dataService);
+                    UI.UveziRecepteUI(recipeManager, dataService);
+                    break;
+                case "8":
+                    UI.FiltrirajReceptePoSvojstvima(recipeManager);
+                    break;
+                case "9":
+                    UI.PrikaziSveKategorije(recipeManager);
                     break;
                 case "0":
                     exit = true;

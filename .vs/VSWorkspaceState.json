@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\CookBook",
-    "\\CookBook\\CookBook"
+    "\\CookBook\\CookBook",
+    "\\CookBook\\CookBook\\bin",
+    "\\CookBook\\CookBook\\bin\\Debug",
+    "\\CookBook\\CookBook\\bin\\Debug\\net8.0"
   ],
   "SelectedNode": "\\CookBook\\CookBook\\Program.cs",
   "PreviewInSolutionExplorer": false

@@ -11,7 +11,7 @@
     ],
     "kategorija": "Glavno jelo",
     "vrijemePripreme": 20,
-    "upute": "Skuhaj pastu. Przi pancetu. Pomijesaj jaja sa sirom. Sve sjedini s pastom.",
+    "upute": "Skuhaj pastu. Pr\u017Ei pancetu. Pomije\u0161aj jaja sa sirom. Sve sjedini s pastom.",
     "popularnost": 4
   },
   {
@@ -25,12 +25,12 @@
     ],
     "kategorija": "Salata",
     "vrijemePripreme": 15,
-    "upute": "Isjeckaj salatu. Dodaj krutone, parmezan i dresing. Dobro promijesaj.",
+    "upute": "Isjeckaj salatu. Dodaj krutone, parmezan i dresing. Dobro promije\u0161aj.",
     "popularnost": 5
   },
   {
     "id": 3,
-    "naziv": "Paradajz corba",
+    "naziv": "Paradajz \u010Dorba",
     "sastojci": [
       "Paradajz",
       "Luk",
@@ -38,27 +38,27 @@
       "Bosiljak",
       "Pavlaka"
     ],
-    "kategorija": "Corba",
+    "kategorija": "\u010Corba",
     "vrijemePripreme": 30,
-    "upute": "Przi luk i bijeli luk. Dodaj paradajz i bosiljak. Kuhaj i izmiksaj.",
+    "upute": "Pr\u017Ei luk i bijeli luk. Dodaj paradajz i bosiljak. Kuhaj i izmiksaj.",
     "popularnost": 3
   },
   {
     "id": 4,
-    "naziv": "Sendvic sa sirom na zaru",
+    "naziv": "Sendvi\u010D sa sirom na \u017Earu",
     "sastojci": [
       "Hljeb",
-      "Cedar sir",
+      "\u010Cedar sir",
       "Maslac"
     ],
-    "kategorija": "Uzina",
+    "kategorija": "U\u017Eina",
     "vrijemePripreme": 10,
-    "upute": "Namazi hljeb maslacem. Dodaj sir izmedju kriski. Peci dok ne postane zlatno smedji.",
+    "upute": "Namazi hljeb maslacem. Dodaj sir izme\u0111u kri\u0161ki. Peci dok ne postane zlatno sme\u0111i.",
     "popularnost": 4
   },
   {
     "id": 5,
-    "naziv": "Pileci kari",
+    "naziv": "Pile\u0107i kari",
     "sastojci": [
       "Piletina",
       "Luk",
@@ -68,7 +68,7 @@
     ],
     "kategorija": "Glavno jelo",
     "vrijemePripreme": 40,
-    "upute": "Przi luk i bijeli luk. Dodaj piletinu i kari prah. Dodaj kokosovo mlijeko i kuhaj na laganoj vatri.",
+    "upute": "Pr\u017Ei luk i bijeli luk. Dodaj piletinu i kari prah. Dodaj kokosovo mlijeko i kuhaj na laganoj vatri.",
     "popularnost": 5
   }
 ]
