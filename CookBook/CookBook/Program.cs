@@ -1,19 +1,25 @@
 ﻿using System;
+using Models;
+using Services;
 
 class Program
 {
     static void Main()
     {
-        var recipeManager = new RecipeManager();
+
+        IIngredientService ingredientService = new IngredientService();
+        IRecipeService recipeService = new RecipeService(ingredientService);
+        IOcjenaService ocjenaService = new OcjenaService(); 
         var authService = new AuthenticationService();
-        var dataService = new DataExportImportService();
+        var dataService = new DataExportImportService(ingredientService);
+        var shoppingListService = new ShoppingListService(ingredientService);
 
         Console.WriteLine("Dobrodošli u aplikaciju za upravljanje receptima!");
-
+        Console.WriteLine("Registracija korisnika:");
         Console.Write("Unesite korisničko ime za registraciju: ");
         string username = Console.ReadLine() ?? "";
         Console.Write("Unesite lozinku za registraciju: ");
-        string password = authService.ReadPassword();
+        string password = authService.CitajLozinku();
 
         if (authService.RegistrujKorisnika(username, password))
         {
@@ -26,19 +32,17 @@ class Program
         }
 
         Console.WriteLine("Molimo vas da se prijavite.");
-
-        bool authenticated = false;
-        while (!authenticated)
+        while (true)
         {
             Console.Write("Korisničko ime: ");
             string loginUsername = Console.ReadLine() ?? "";
             Console.Write("Lozinka: ");
-            string loginPassword = authService.ReadPassword();
+            string loginPassword = authService.CitajLozinku();
 
             if (authService.AutentifikujKorisnika(loginUsername, loginPassword))
             {
-                Console.WriteLine("Prijava uspješna!");
-                authenticated = true;
+                Console.WriteLine("Prijava uspješna! Dobrodošli, " + loginUsername + ".");
+                break;
             }
             else
             {
@@ -46,19 +50,31 @@ class Program
             }
         }
 
-        bool exit = false;
-        while (!exit)
+        try
+        {
+            var sastojci = dataService.ImportujSastojke("JSON");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Greška prilikom uvoza sastojaka: {e.Message}");
+            return;
+        }
+
+        while (true)
         {
             Console.WriteLine("\nOdaberite opciju:");
             Console.WriteLine("1. Dodaj recept");
-            Console.WriteLine("2. Ažuriraj recept");
-            Console.WriteLine("3. Obriši recept");
-            Console.WriteLine("4. Prikaži recepte");
-            Console.WriteLine("5. Pretraži recepte po nazivu");
-            Console.WriteLine("6. Izvezi recepte (JSON/XML)");
-            Console.WriteLine("7. Uvezi recepte (JSON/XML)");
-            Console.WriteLine("8. Filtriraj recepte po svojstvima");
-            Console.WriteLine("9. Prikaži sve kategorije");
+            Console.WriteLine("2. Prikaži sve recepte");
+            Console.WriteLine("3. Prikaži sve kategorije");
+            Console.WriteLine("4. Ažuriraj recept");
+            Console.WriteLine("5. Obriši recept");
+            Console.WriteLine("6. Pretraži recept po nazivu");
+            Console.WriteLine("7. Pretraži recepte po atributima");
+            Console.WriteLine("8. Izvezi recepte (JSON/XML)");
+            Console.WriteLine("9. Uvezi recepte (JSON/XML)");
+            Console.WriteLine("10. Kreiraj listu kupovine");
+            Console.WriteLine("11. Ocijeni recept");
+            Console.WriteLine("12. Prikaži prosjecnu ocjenu recepta");
             Console.WriteLine("0. Izlaz");
             Console.Write("Vaš izbor: ");
             string choice = Console.ReadLine();
@@ -66,35 +82,44 @@ class Program
             switch (choice)
             {
                 case "1":
-                    UI.DodajReceptUI(recipeManager);
+                    UI.DodajReceptUI(recipeService, ingredientService);
                     break;
                 case "2":
-                    UI.AzurirajReceptUI(recipeManager);
+                    UI.PrikaziSveRecepte(recipeService, ocjenaService); 
                     break;
                 case "3":
-                    UI.ObrisiReceptUI(recipeManager);
+                    UI.PrikaziSveKategorijeUI(recipeService);
                     break;
                 case "4":
-                    UI.PrikaziSveRecepte(recipeManager);
+                    UI.AzurirajReceptUI(recipeService, ingredientService);
                     break;
                 case "5":
-                    UI.PretraziRecepteUI(recipeManager);
+                    UI.ObrisiReceptUI(recipeService);
                     break;
                 case "6":
-                    UI.IzveziRecepteUI(recipeManager, dataService);
+                    UI.PretraziPoNazivuUI(recipeService);
                     break;
                 case "7":
-                    UI.UveziRecepteUI(recipeManager, dataService);
+                    UI.PretraziPoAtributimaUI(recipeService);
                     break;
                 case "8":
-                    UI.FiltrirajReceptePoSvojstvima(recipeManager);
+                    UI.IzveziRecepteUI(recipeService, dataService);
                     break;
                 case "9":
-                    UI.PrikaziSveKategorije(recipeManager);
+                    UI.UveziRecepteUI(recipeService, dataService);
+                    break;
+                case "10":
+                    UI.KreirajListuKupovine(recipeService, shoppingListService);
+                    break;
+                case "11":
+                    UI.OcijeniReceptUI(recipeService, ocjenaService); 
+                    break;
+                case "12":
+                    UI.PrikaziProsjecnuOcjenuUI(recipeService, ocjenaService); 
                     break;
                 case "0":
-                    exit = true;
-                    break;
+                    Console.WriteLine("Doviđenja!");
+                    return;
                 default:
                     Console.WriteLine("Nepoznata opcija, pokušajte ponovo.");
                     break;
