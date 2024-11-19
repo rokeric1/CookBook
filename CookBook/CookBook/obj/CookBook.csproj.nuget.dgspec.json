@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {}
+    "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
+    "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
         "projectName": "CookBook",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

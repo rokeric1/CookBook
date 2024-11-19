@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CookBook",
-    "\\CookBook\\CookBook",
-    "\\CookBook\\CookBook\\bin",
-    "\\CookBook\\CookBook\\Models",
-    "\\CookBook\\CookBook\\Services",
-    "\\CookBook\\CookBook\\Services\\IngredientService",
-    "\\CookBook\\CookBook\\Services\\OcjenaService",
-    "\\CookBook\\CookBook\\Services\\RecipeService",
-    "\\CookBook\\CookBook\\Services\\ShoppingListService"
+    ""
   ],
-  "SelectedNode": "\\CookBook\\CookBook\\Program.cs",
+  "SelectedNode": "\\CookBook.sln",
   "PreviewInSolutionExplorer": false
 }
