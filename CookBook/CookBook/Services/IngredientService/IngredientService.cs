@@ -21,7 +21,7 @@ namespace Services
             {
                 if (ingredients.Any(i => i.Id == sastojak.Id))
                 {
-                    throw new ArgumentException($"Sastojak sa ID {sastojak.Id} ve? postoji.");
+                    throw new ArgumentException($"Sastojak sa ID {sastojak.Id} vec postoji.");
                 }
                 ingredients.Add(sastojak);
                 if (sastojak.Id >= currentId)
@@ -38,12 +38,22 @@ namespace Services
 
         public Ingredient GetIngredientById(int id)
         {
-            return ingredients.FirstOrDefault(i => i.Id == id);
+            var ingredient = ingredients.FirstOrDefault(i => i.Id == id);
+            if (ingredient == null)
+            {
+                throw new ArgumentException($"Sastojak sa navedenim Id ne postoji");
+            }
+            return ingredient;
         }
 
         public Ingredient GetIngredientByName(string naziv)
         {
-            return ingredients.FirstOrDefault(i => i.Naziv.Equals(naziv, System.StringComparison.OrdinalIgnoreCase));
+            var ingredient = ingredients.FirstOrDefault(i => i.Naziv.Equals(naziv, StringComparison.OrdinalIgnoreCase));
+            if (ingredient == null)
+            {
+                throw new ArgumentException($"Sastojak sa navedenim imenom ne postoji");
+            }
+            return ingredient;
         }
 
         public int GetNextId()
@@ -57,3 +67,4 @@ namespace Services
         }
     }
 }
+
