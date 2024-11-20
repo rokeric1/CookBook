@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\",
+  "WorkspaceRootPath": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\nedim\\desktop\\vvs-vjezbe\\vvs-vjezbe\\cookbook\\cookbooktests\\ingredientservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\ingredientservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbooktests\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\nedim\\desktop\\vvs-vjezbe\\vvs-vjezbe\\cookbook\\cookbook\\services\\ingredientservice\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\ingredientservice\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbooktests\\receptsorttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\receptsorttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\nedim\\desktop\\vvs-vjezbe\\vvs-vjezbe\\cookbook\\cookbooktests\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbooktests\\cookbooktests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\cookbooktests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbooktests\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\nedim\\desktop\\vvs-vjezbe\\vvs-vjezbe\\cookbook\\cookbook\\services\\ingredientservice\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\ingredientservice\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\services\\shoppinglistservice\\shoppinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\shoppinglistservice\\shoppinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\services\\recipeservice\\receptsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\recipeservice\\receptsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\services\\ingredientservice\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\ingredientservice\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbooktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\vvs\\vvs-vjezbe\\cookbook\\cookbook\\services\\recipeservice\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\recipeservice\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,66 +54,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecipeServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\RecipeServiceTests.cs",
-              "ToolTip": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
-              "RelativeToolTip": "CookBookTests\\RecipeServiceTests.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAAwJoAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "ShoppingListService.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "RelativeToolTip": "CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:40:13.682Z",
+              "WhenOpened": "2024-11-20T14:30:34.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IIngredientService.cs",
-              "DocumentMoniker": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IIngredientService.cs",
-              "RelativeDocumentMoniker": "CookBook\\Services\\IngredientService\\IIngredientService.cs",
-              "ToolTip": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IIngredientService.cs",
-              "RelativeToolTip": "CookBook\\Services\\IngredientService\\IIngredientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
+              "RelativeDocumentMoniker": "CookBook\\Program.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
+              "RelativeToolTip": "CookBook\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:31:52.109Z",
+              "WhenOpened": "2024-11-20T14:30:32.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IngredientService.cs",
-              "DocumentMoniker": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "RelativeDocumentMoniker": "CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "ToolTip": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "RelativeToolTip": "CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAiwEYAAAAAAAAA",
+              "Title": "ReceptSortTests.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\ReceptSortTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\ReceptSortTests.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\ReceptSortTests.cs",
+              "RelativeToolTip": "CookBookTests\\ReceptSortTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:08:38.016Z",
+              "WhenOpened": "2024-11-20T09:27:32.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecipeServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\RecipeServiceTests.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
+              "RelativeToolTip": "CookBookTests\\RecipeServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T00:06:30.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IngredientServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBookTests\\IngredientServiceTest.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\IngredientServiceTest.cs",
-              "ToolTip": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBookTests\\IngredientServiceTest.cs",
-              "RelativeToolTip": "CookBookTests\\IngredientServiceTest.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAmwHwAAAA/AAAA",
+              "Title": "OcjenaTests.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\OcjenaTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\OcjenaTests.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\OcjenaTests.cs",
+              "RelativeToolTip": "CookBookTests\\OcjenaTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:07:36.568Z",
+              "WhenOpened": "2024-11-20T14:14:52.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CookBookTests.csproj",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+              "RelativeDocumentMoniker": "CookBookTests\\CookBookTests.csproj",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+              "RelativeToolTip": "CookBookTests\\CookBookTests.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T09:27:09.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "RelativeToolTip": "CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:20:19.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReceptSort.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\RecipeService\\ReceptSort.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\RecipeService\\ReceptSort.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\RecipeService\\ReceptSort.cs",
+              "RelativeToolTip": "CookBook\\Services\\RecipeService\\ReceptSort.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:25:08.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\MSTestSettings.cs",
+              "RelativeToolTip": "CookBookTests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:16:51.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\RecipeService\\RecipeService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\RecipeService\\RecipeService.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Services\\RecipeService\\RecipeService.cs",
+              "RelativeToolTip": "CookBook\\Services\\RecipeService\\RecipeService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv1kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:07:51.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "CookBook\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Recipe.cs",
+              "RelativeToolTip": "CookBook\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:07:30.362Z",
               "EditorCaption": ""
             }
           ]

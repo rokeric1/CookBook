@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {}
+    "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
+    "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+        "projectUniqueName": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
         "projectName": "CookBook",
-        "projectPath": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
-        "packagesPath": "C:\\Users\\nedim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nedim\\Desktop\\VVS-vjezbe\\VVS-vjezbe\\CookBook\\CookBook\\obj\\",
+        "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+        "packagesPath": "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nedim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Umihana Šečunović\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.6.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
