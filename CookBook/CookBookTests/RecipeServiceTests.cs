@@ -28,7 +28,7 @@ namespace CookBookTests
             var recipe = new Recipe
             {
                 Naziv = "Torta",
-              //  Sastojci = new List<Sastojak>(), 
+                Sastojci = new Dictionary<int, double> { { 1, 200 } },
                 Kategorija = "Desert",
                 VrijemePripreme = 60,
                 Upute = "Peći 40 minuta.",
@@ -70,7 +70,7 @@ namespace CookBookTests
             var updatedRecipe = new Recipe
             {
                 Naziv = "Nova Torta",
-               // Sastojci = new List<Sastojak>(), // Zamjena za Dictionary
+                Sastojci = new Dictionary<int, double> { { 2, 100 } },
                 Kategorija = "Desert",
                 VrijemePripreme = 45,
                 Upute = "Nove upute.",
@@ -141,29 +141,6 @@ namespace CookBookTests
         }
 
         [TestMethod]
-        public void PretraziPoAtributima_ShouldReturnRecipes_WhenMatchingCriteria()
-        {
-            // Arrange
-           // var sastojak = new Sastojak { Id = 1, Naziv = "Čokolada" };
-           // _ingredientService.DodajSastojak(sastojak);
-
-            _recipeService.DodajRecept(new Recipe
-            {
-                Naziv = "Torta",
-                VrijemePripreme = 60,
-            //    Sastojci = new List<Sastojak> { sastojak },
-                Popularnost = 10
-            });
-
-            // Act
-            var result = _recipeService.PretraziPoAtributima(maxVrijemePripreme: 90, sastojak: "Čokolada", minPopularnost: 5);
-
-            // Assert
-            Assert.AreEqual(1, result.Count);
-            Assert.AreEqual("Torta", result[0].Naziv);
-        }
-
-        [TestMethod]
         public void GetSviRecepti_ShouldReturnAllRecipes()
         {
             // Arrange
@@ -188,5 +165,134 @@ namespace CookBookTests
             Assert.AreEqual(1, id1);
             Assert.AreEqual(2, id2);
         }
+
+        [TestMethod]
+        public void PretraziPoAtributima_ShouldReturnRecipes_WhenMatchingMaxVrijemePripreme()
+        {
+            // Arrange
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Torta",
+                VrijemePripreme = 60,
+                Sastojci = new Dictionary<int, double>(),
+                Popularnost = 10
+            });
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Kolač",
+                VrijemePripreme = 30,
+                Sastojci = new Dictionary<int, double>(),
+                Popularnost = 5
+            });
+
+            // Act
+            var result = _recipeService.PretraziPoAtributima(maxVrijemePripreme: 40);
+
+            // Assert
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual("Kolač", result[0].Naziv);
+        }
+
+        [TestMethod]
+        public void PretraziPoAtributima_ShouldReturnRecipes_WhenMatchingSastojak()
+        {
+            // Arrange
+            var sastojakId = 1;
+            var ingredient = new Ingredient { Id = sastojakId, Naziv = "Čokolada" };
+            _ingredientService.DodajIngredient(ingredient);
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Torta",
+                VrijemePripreme = 60,
+                Sastojci = new Dictionary<int, double> { { sastojakId, 200 } },
+                Popularnost = 10
+            });
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Kolač",
+                VrijemePripreme = 30,
+                Sastojci = new Dictionary<int, double>(),
+                Popularnost = 5
+            });
+
+            // Act
+            var result = _recipeService.PretraziPoAtributima(sastojak: "Čokolada");
+
+            // Assert
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual("Torta", result[0].Naziv);
+        }
+
+        [TestMethod]
+        public void PretraziPoAtributima_ShouldReturnRecipes_WhenMatchingMinPopularnost()
+        {
+            // Arrange
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Torta",
+                VrijemePripreme = 60,
+                Sastojci = new Dictionary<int, double>(),
+                Popularnost = 10
+            });
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Kolač",
+                VrijemePripreme = 30,
+                Sastojci = new Dictionary<int, double>(),
+                Popularnost = 5
+            });
+
+            // Act
+            var result = _recipeService.PretraziPoAtributima(minPopularnost: 6);
+
+            // Assert
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual("Torta", result[0].Naziv);
+        }
+
+        [TestMethod]
+        public void PretraziPoAtributima_ShouldReturnAllMatchingRecipes_WhenMultipleCriteria()
+        {
+            // Arrange
+            var sastojakId = 1;
+            var ingredient = new Ingredient { Id = sastojakId, Naziv = "Čokolada" };
+            _ingredientService.DodajIngredient(ingredient);
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Torta",
+                VrijemePripreme = 60,
+                Sastojci = new Dictionary<int, double> { { sastojakId, 200 } },
+                Popularnost = 10
+            });
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Kolač",
+                VrijemePripreme = 30,
+                Sastojci = new Dictionary<int, double> { { sastojakId, 100 } },
+                Popularnost = 8
+            });
+
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Pita",
+                VrijemePripreme = 90,
+                Sastojci = new Dictionary<int, double>(),
+                Popularnost = 5
+            });
+
+            // Act
+            var result = _recipeService.PretraziPoAtributima(maxVrijemePripreme: 60, sastojak: "Čokolada", minPopularnost: 9);
+
+            // Assert
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual("Torta", result[0].Naziv);
+        }
+
     }
 }
