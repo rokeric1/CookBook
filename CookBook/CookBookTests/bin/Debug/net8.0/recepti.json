@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Naziv": "Recipe1",
+    "Sastojci": {},
+    "Kategorija": null,
+    "VrijemePripreme": 0,
+    "Upute": null,
+    "Popularnost": 0,
+    "SastojciList": []
+  }
+]
