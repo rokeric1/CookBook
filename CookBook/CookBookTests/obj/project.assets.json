@@ -2565,9 +2565,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+      "projectUniqueName": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
       "projectName": "CookBookTests",
-      "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+      "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
       "packagesPath": "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS\\VVS-vjezbe\\CookBook\\CookBookTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -2587,8 +2587,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
-              "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj"
+            "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
+              "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\VVS\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj"
             }
           }
         }
