@@ -41,7 +41,7 @@ namespace CookBookTests
             ReceptSort.SortirajPoKategoriji(recipes);
 
             // Assert
-            Assert.AreEqual(0, recipes.Count); // Lista ostaje prazna
+            Assert.AreEqual(0, recipes.Count); 
         }
 
         [TestMethod]

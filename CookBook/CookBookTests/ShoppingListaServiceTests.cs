@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models;
+using Moq;
 using Services;
 using System;
 using System.Collections.Generic;
@@ -7,174 +8,258 @@ using System.Collections.Generic;
 namespace CookBookTests
 {
     [TestClass]
-    public class ShoppingListServiceTest
+    public class ShoppingListServiceTests
     {
-        private ShoppingListService? _shoppingListService;
-        private FakeIngredientService? _ingredientService;
+        private Mock<IIngredientService> mockIngredientService;
+        private ShoppingListService shoppingListService;
 
         [TestInitialize]
-        public void TestInitialize()
+        public void Setup()
         {
-            _ingredientService = new FakeIngredientService();
-            _shoppingListService = new ShoppingListService(_ingredientService);
-
-            // Adding sample ingredients
-            _ingredientService.AddIngredient(new Ingredient { Id = 1, Naziv = "Mlijeko", Cijena = 1.5M });
-            _ingredientService.AddIngredient(new Ingredient { Id = 2, Naziv = "Hljeb", Cijena = 0.8M });
-            _ingredientService.AddIngredient(new Ingredient { Id = 3, Naziv = "Jaja", Cijena = 0.2M });
+            mockIngredientService = new Mock<IIngredientService>();
+            shoppingListService = new ShoppingListService(mockIngredientService.Object);
         }
 
         [TestMethod]
-        public void DodajNaListu_AddsIngredient_WhenNotAlreadyInList()
+        public void DodajNaListu_NewIngredient_ShouldAddToDictionary()
         {
-            _shoppingListService?.DodajNaListu(1, 2.0);
+            // Arrange
+            int ingredientId = 1;
+            double kolicina = 2.5;
 
-            var lista = _shoppingListService?.GetLista();
-            Assert.IsNotNull(lista);
-            Assert.AreEqual(1, lista.Count);
-            Assert.AreEqual(2.0, lista[key: _ingredientService.GetIngredientById(1)]);
-        }
+            var ingredient = new Ingredient { Id = ingredientId, Naziv = "Jabuka", Cijena = 3.0M };
+            mockIngredientService.Setup(s => s.GetIngredientById(ingredientId)).Returns(ingredient);
 
-        [TestMethod]
-        public void DodajNaListu_IncreasesQuantity_WhenIngredientAlreadyExists()
-        {
-            _shoppingListService?.DodajNaListu(1, 1.0);
-            _shoppingListService?.DodajNaListu(1, 1.5);
-
-            var lista = _shoppingListService?.GetLista();
-            Assert.AreEqual(1, lista?.Count);
-            Assert.AreEqual(2.5, lista?[_ingredientService.GetIngredientById(1)]);
-        }
-
-        [TestMethod]
-        public void GetLista_ReturnsEmpty_WhenNoIngredientsAdded()
-        {
-            var lista = _shoppingListService?.GetLista();
-
-            Assert.IsNotNull(lista);
-            Assert.AreEqual(0, lista.Count);
-        }
-
-        [TestMethod]
-        public void IzracunajUkupnuCijenu_ReturnsZero_WhenListIsEmpty()
-        {
-            var ukupnaCijena = _shoppingListService?.IzracunajUkupnuCijenu();
-
-            Assert.AreEqual(0.0M, ukupnaCijena);
-        }
-
-        [TestMethod]
-        public void IzracunajUkupnuCijenu_CalculatesCorrectTotal_WhenIngredientsAdded()
-        {
-            _shoppingListService?.DodajNaListu(1, 2.0); // 2 * 1.5 = 3.0
-            _shoppingListService?.DodajNaListu(2, 3.0); // 3 * 0.8 = 2.4
-
-            var ukupnaCijena = _shoppingListService?.IzracunajUkupnuCijenu();
-
-            Assert.AreEqual(5.4M, ukupnaCijena);
-        }
-
-        [TestMethod]
-        public void GetLista_ReturnsCorrectItems_WhenIngredientsAdded()
-        {
-            _shoppingListService?.DodajNaListu(1, 2.0);
-            _shoppingListService?.DodajNaListu(2, 1.0);
-
-            var lista = _shoppingListService?.GetLista();
-
-            Assert.AreEqual(2, lista?.Count);
-            Assert.AreEqual(2.0, lista?[_ingredientService.GetIngredientById(1)]);
-            Assert.AreEqual(1.0, lista?[_ingredientService.GetIngredientById(2)]);
-        }
-
-        // Data-driven tests for better coverage
-        [DataTestMethod]
-        [DataRow(1, 1.0, 1.0)] 
-        [DataRow(1, 2.5, 2.5)] 
-        [DataRow(2, 3.0, 3.0)] 
-        public void DodajNaListu_AddsCorrectQuantity(int ingredientId, double quantity, double expectedQuantity)
-        {
-            
-            _shoppingListService?.DodajNaListu(ingredientId, quantity);
-
-            var lista = _shoppingListService?.GetLista();
-            var ingredient = _ingredientService?.GetIngredientById(ingredientId);
-
-            Assert.IsNotNull(ingredient, "Sastojak ne treba da postoji u listi.");
-            Assert.AreEqual(expectedQuantity, lista?[ingredient], $"Očekivana količina {expectedQuantity} nije ista kao dobijena.");
-        }
-
-        [DataTestMethod]
-        [DataRow(1, 2.0, -1.0, 1.0)] 
-        [DataRow(2, 3.5, -3.5, 0.0)] 
-        public void DodajNaListu_HandlesQuantityChanges(int ingredientId, double addQuantity, double subtractQuantity, double expectedQuantity)
-        {
-            _shoppingListService?.DodajNaListu(ingredientId, addQuantity);
-            _shoppingListService?.DodajNaListu(ingredientId, subtractQuantity);
+            // Act
+            shoppingListService.DodajNaListu(ingredientId, kolicina);
 
             // Assert
-            var lista = _shoppingListService?.GetLista();
-            var ingredient = _ingredientService?.GetIngredientById(ingredientId);
+            var lista = shoppingListService.GetLista();
+            Assert.AreEqual(1, lista.Count);
+            Assert.IsTrue(lista.ContainsKey(ingredient));
+            Assert.AreEqual(kolicina, lista[ingredient]);
+        }
 
-            if (expectedQuantity == 0.0)
+        [TestMethod]
+        public void DodajNaListu_ExistingIngredient_ShouldUpdateQuantity()
+        {
+            // Arrange
+            int ingredientId = 1;
+            double initialKolicina = 2.5;
+            double additionalKolicina = 1.5;
+
+            var ingredient = new Ingredient { Id = ingredientId, Naziv = "Jabuka", Cijena = 3.0M };
+            mockIngredientService.Setup(s => s.GetIngredientById(ingredientId)).Returns(ingredient);
+
+            shoppingListService.DodajNaListu(ingredientId, initialKolicina);
+
+            // Act
+            shoppingListService.DodajNaListu(ingredientId, additionalKolicina);
+
+            // Assert
+            var lista = shoppingListService.GetLista();
+            Assert.AreEqual(1, lista.Count);
+            Assert.AreEqual(initialKolicina + additionalKolicina, lista[ingredient]);
+        }
+
+        [TestMethod]
+        public void IzracunajUkupnuCijenu_WithValidIngredients_ShouldReturnCorrectSum()
+        {
+            // Arrange
+            var ingredient1 = new Ingredient { Id = 1, Naziv = "Jabuka", Cijena = 3.0M };
+            var ingredient2 = new Ingredient { Id = 2, Naziv = "Mlijeko", Cijena = 1.5M };
+
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(ingredient1);
+            mockIngredientService.Setup(s => s.GetIngredientById(2)).Returns(ingredient2);
+
+            shoppingListService.DodajNaListu(1, 2); 
+            shoppingListService.DodajNaListu(2, 3); 
+
+            // Act
+            decimal ukupnaCijena = shoppingListService.IzracunajUkupnuCijenu();
+
+            // Assert
+            Assert.AreEqual(10.5M, ukupnaCijena);
+        }
+
+        [TestMethod]
+        public void GetLista_ShouldReturnIngredientListWithQuantities()
+        {
+            // Arrange
+            var ingredient = new Ingredient { Id = 1, Naziv = "Jabuka", Cijena = 3.0M };
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(ingredient);
+
+            shoppingListService.DodajNaListu(1, 2);
+
+            // Act
+            var lista = shoppingListService.GetLista();
+
+            // Assert
+            Assert.AreEqual(1, lista.Count);
+            Assert.AreEqual(ingredient, lista.Keys.First());
+            Assert.AreEqual(2, lista.Values.First());
+        }
+
+        [TestMethod]
+        public void ToString_ShouldReturnFormattedString()
+        {
+            // Arrange
+            var ingredient = new Ingredient
             {
-                Assert.IsFalse(lista?.ContainsKey(ingredient), "Sastojak treba ukloniti sa liste.");
-            }
-            else
+                Id = 1,
+                Naziv = "Jabuka",
+                Cijena = 3.0M,
+                Nutrijenti = "Vitamini A, B, C",
+                EkoUtjecaj = 0.75,
+                Dostupan = true
+            };
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(ingredient);
+
+            shoppingListService.DodajNaListu(1, 2);
+
+            // Act
+            string result = shoppingListService.ToString();
+
+            // Assert
+            StringAssert.Contains(result, "Jabuka");
+            StringAssert.Contains(result, "Količina: 2");
+            StringAssert.Contains(result, "Ukupno: $6.00");
+        }
+
+        [TestMethod]
+        public void IzracunajUkupnuCijenu_WithNullIngredient_ShouldSkipAndReturnCorrectSum()
+        {
+            // Arrange
+            var validIngredient = new Ingredient { Id = 1, Naziv = "Jabuka", Cijena = 3.0M };
+
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(validIngredient);
+            mockIngredientService.Setup(s => s.GetIngredientById(2)).Returns((Ingredient)null); 
+
+            shoppingListService.DodajNaListu(1, 2); 
+            shoppingListService.DodajNaListu(2, 3); 
+
+            // Act
+            decimal ukupnaCijena = shoppingListService.IzracunajUkupnuCijenu();
+
+            // Assert
+            Assert.AreEqual(6.0M, ukupnaCijena); 
+        }
+
+        [TestMethod]
+        public void ToString_WithNullIngredient_ShouldHandleGracefully()
+        {
+            // Arrange
+            var validIngredient = new Ingredient
             {
-                Assert.AreEqual(expectedQuantity, lista?[ingredient], $"Očekivana količina {expectedQuantity} nije ista kao dobijena.");
-            }
+                Id = 1,
+                Naziv = "Jabuka",
+                Cijena = 3.0M,
+                Nutrijenti = "Vitamini A, B, C",
+                EkoUtjecaj = 0.75,
+                Dostupan = true
+            };
+
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(validIngredient);
+            mockIngredientService.Setup(s => s.GetIngredientById(2)).Returns((Ingredient)null); 
+
+            shoppingListService.DodajNaListu(1, 2); 
+            shoppingListService.DodajNaListu(2, 3); 
+
+            // Act
+            string result = shoppingListService.ToString();
+
+            // Assert
+            StringAssert.Contains(result, "Jabuka");
+            StringAssert.Contains(result, "Količina: 2");
+            StringAssert.Contains(result, "Ukupno: $6.00");
+            StringAssert.Contains(result, "Id: 2 nije pronađen."); 
         }
 
-        [DataTestMethod]
-        [DataRow(1, 2.0, 1.5, 3.0)]
-        [DataRow(2, 3.0, 0.8, 2.4)] 
-        [DataRow(1, 0.0, 1.5, 0.0)] 
-        public void IzracunajUkupnuCijenu_CalculatesCorrectly(int ingredientId, double quantity, double price, double expectedTotal)
+        [TestMethod]
+        public void ToString_WithUnavailableIngredient_ShouldDisplayCorrectMessage()
         {
-            var expectedPrice = (decimal)price;        
-            var expectedTotalPrice = (decimal)expectedTotal; 
-            _shoppingListService?.DodajNaListu(ingredientId, quantity);
+            // Arrange
+            var ingredient = new Ingredient
+            {
+                Id = 1,
+                Naziv = "Mlijeko",
+                Cijena = 4.0M,
+                Nutrijenti = "Kalij",
+                EkoUtjecaj = 1.25,
+                Dostupan = false 
+            };
 
-            var totalPrice = _shoppingListService?.IzracunajUkupnuCijenu();
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(ingredient);
 
-            Assert.AreEqual(expectedTotalPrice, totalPrice, $"Očekivana cijena{expectedTotalPrice:C} nije ista kao dobijena.");
+            shoppingListService.DodajNaListu(1, 1);
+
+            // Act
+            string result = shoppingListService.ToString();
+
+            // Assert
+            StringAssert.Contains(result, "Mlijeko");
+            StringAssert.Contains(result, "Dostupnost: Nije Dostupan"); 
         }
 
-    }
-
-    public class FakeIngredientService : IIngredientService
-    {
-        private readonly Dictionary<int, Ingredient> _ingredients = new Dictionary<int, Ingredient>();
-
-        public void AddIngredient(Ingredient ingredient)
+        [TestMethod]
+        public void ToString_WithMultipleIngredients_ShouldHandleMixedAvailability()
         {
-            _ingredients[ingredient.Id] = ingredient;
+            // Arrange
+            var ingredient1 = new Ingredient
+            {
+                Id = 1,
+                Naziv = "Kruh",
+                Cijena = 2.5M,
+                Nutrijenti = "Vlakna",
+                EkoUtjecaj = 0.5,
+                Dostupan = true 
+            };
+
+            var ingredient2 = new Ingredient
+            {
+                Id = 2,
+                Naziv = "Jogurt",
+                Cijena = 1.8M,
+                Nutrijenti = "Probiotici",
+                EkoUtjecaj = 0.9,
+                Dostupan = false 
+            };
+
+            mockIngredientService.Setup(s => s.GetIngredientById(1)).Returns(ingredient1);
+            mockIngredientService.Setup(s => s.GetIngredientById(2)).Returns(ingredient2);
+
+            shoppingListService.DodajNaListu(1, 2); 
+            shoppingListService.DodajNaListu(2, 1); 
+
+            // Act
+            string result = shoppingListService.ToString();
+
+            // Assert
+            StringAssert.Contains(result, "Kruh");
+            StringAssert.Contains(result, "Dostupnost: Dostupan");
+            StringAssert.Contains(result, "Jogurt");
+            StringAssert.Contains(result, "Dostupnost: Nije Dostupan");
         }
 
-        public Ingredient? GetIngredientById(int id)
+        [TestMethod]
+        public void ToString_WithMultipleNullIngredients_ShouldHandleGracefully()
         {
-            return _ingredients.ContainsKey(id) ? _ingredients[id] : null;
+            // Arrange
+            mockIngredientService.Setup(s => s.GetIngredientById(It.IsAny<int>())).Returns((Ingredient)null);
+
+            shoppingListService.DodajNaListu(1, 1); 
+            shoppingListService.DodajNaListu(2, 2); 
+
+            // Act
+            string result = shoppingListService.ToString();
+
+            // Assert
+            StringAssert.Contains(result, "Id: 1 nije pronađen.");
+            StringAssert.Contains(result, "Id: 2 nije pronađen.");
         }
 
-        public List<Ingredient> GetAllIngredients()
-        {
-            return new List<Ingredient>(_ingredients.Values);
-        }
 
-        public void DodajIngredient(Ingredient sastojak, bool preserveId = false)
-        {
-            throw new NotImplementedException();
-        }
 
-        public Ingredient GetIngredientByName(string naziv)
-        {
-            throw new NotImplementedException();
-        }
 
-        public int GetNextId()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

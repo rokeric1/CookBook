@@ -57,7 +57,7 @@ namespace CookBookTests
             // Act
             _recipeService.DodajRecept(recipe2);
 
-            // Assert - Expect exception
+            // Assert
         }
 
         [TestMethod]
@@ -97,7 +97,7 @@ namespace CookBookTests
             // Act
             _recipeService.AzurirajRecept(1, updatedRecipe);
 
-            // Assert - Expect exception
+            // Assert 
         }
 
         [TestMethod]
@@ -122,7 +122,7 @@ namespace CookBookTests
             // Act
             _recipeService.ObrisiRecept(1);
 
-            // Assert - Expect exception
+            // Assert
         }
 
         [TestMethod]

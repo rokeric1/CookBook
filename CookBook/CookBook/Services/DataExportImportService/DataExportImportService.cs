@@ -16,7 +16,7 @@ namespace Services
             this.ingredientService = ingredientService;
         }
 
-        public void EksportujRecepte(string format, List<Recipe> recepti)
+        public void EksportujRecepte(string format, List<Recipe> recepti, string filePath = "recepti.json")
         {
             if (string.IsNullOrEmpty(format))
             {
@@ -30,10 +30,10 @@ namespace Services
                 switch (format)
                 {
                     case "JSON":
-                        ExportToJson(recepti, "recepti.json");
+                        ExportToJson(recepti, filePath);
                         break;
                     case "XML":
-                        ExportToXml(recepti, "recepti.xml");
+                        ExportToXml(recepti, filePath);
                         break;
                     default:
                         throw new ArgumentException("Nepoznat format. Odaberite JSON ili XML.");
@@ -45,7 +45,7 @@ namespace Services
             }
         }
 
-        public List<Recipe> ImportujRecepte(string format)
+        public List<Recipe> ImportujRecepte(string format, string filePath = "recepti.json")
         {
             if (string.IsNullOrEmpty(format))
             {
@@ -60,22 +60,22 @@ namespace Services
                 switch (format)
                 {
                     case "JSON":
-                        recepti = ImportFromJson<Recipe>("recepti.json");
+                        recepti = ImportFromJson<Recipe>(filePath);
                         break;
                     case "XML":
-                        recepti = ImportFromXml<Recipe>("recepti.xml");
+                        recepti = ImportFromXml<Recipe>(filePath);
                         break;
                     default:
                         throw new ArgumentException("Nepoznat format. Odaberite JSON ili XML.");
                 }
+
                 foreach (var recept in recepti)
                 {
-                    foreach (var sastojakId in recept.Sastojci.Keys.ToList())
+                    foreach (var sastojakId in recept.Sastojci.Keys)
                     {
                         var ingredient = ingredientService.GetIngredientById(sastojakId);
                         if (ingredient == null)
                         {
-                            Console.WriteLine($"Ingredient ID {sastojakId} nije pronađen. Dodajem ga kao nedostupan.");
                             var noviSastojak = new Ingredient(sastojakId, "Unknown", "Unknown", 0.0, 0.0m, false);
                             ingredientService.DodajIngredient(noviSastojak, preserveId: true);
                         }
@@ -90,7 +90,7 @@ namespace Services
             }
         }
 
-        public void EksportujSastojke(string format, List<Ingredient> sastojci)
+        public void EksportujSastojke(string format, List<Ingredient> sastojci, string filePath = "ingredients.json")
         {
             if (string.IsNullOrEmpty(format))
             {
@@ -104,10 +104,10 @@ namespace Services
                 switch (format)
                 {
                     case "JSON":
-                        ExportToJson(sastojci, "ingredients.json");
+                        ExportToJson(sastojci, filePath);
                         break;
                     case "XML":
-                        ExportToXml(sastojci, "ingredients.xml");
+                        ExportToXml(sastojci, filePath);
                         break;
                     default:
                         throw new ArgumentException("Nepoznat format. Odaberite JSON ili XML.");
@@ -119,7 +119,7 @@ namespace Services
             }
         }
 
-        public List<Ingredient> ImportujSastojke(string format)
+        public List<Ingredient> ImportujSastojke(string format, string filePath = "ingredients.json")
         {
             if (string.IsNullOrEmpty(format))
             {
@@ -134,10 +134,10 @@ namespace Services
                 switch (format)
                 {
                     case "JSON":
-                        sastojci = ImportFromJson<Ingredient>("ingredients.json");
+                        sastojci = ImportFromJson<Ingredient>(filePath);
                         break;
                     case "XML":
-                        sastojci = ImportFromXml<Ingredient>("ingredients.xml");
+                        sastojci = ImportFromXml<Ingredient>(filePath);
                         break;
                     default:
                         throw new ArgumentException("Nepoznat format. Odaberite JSON ili XML.");
@@ -145,14 +145,9 @@ namespace Services
 
                 foreach (var sastojak in sastojci)
                 {
-                    var existing = ingredientService.GetIngredientById(sastojak.Id);
-                    if (existing == null)
+                    if (ingredientService.GetIngredientById(sastojak.Id) == null)
                     {
                         ingredientService.DodajIngredient(sastojak, preserveId: true);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Sastojak sa ID {sastojak.Id} već postoji. Preskačem.");
                     }
                 }
 

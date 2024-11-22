@@ -3,28 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\shoppinglistaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\shoppinglistaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\receptsorttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\receptsorttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\ingredientservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\ingredientservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\cookbooktests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\cookbooktests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\dataexportimportservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\dataexportimportservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\autentificationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\autentificationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\dataexportimportservice\\dataexportimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\dataexportimportservice\\dataexportimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\dataexportimportservice\\idataexportimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\dataexportimportservice\\idataexportimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\ingredientservice\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\ingredientservice\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\recipeservice\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\recipeservice\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\shoppinglistservice\\shoppinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\shoppinglistservice\\shoppinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\cookbooktests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\cookbooktests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\recipeservice\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\recipeservice\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\models\\recipenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\models\\ocjena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\models\\ocjena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,24 +95,8 @@
       "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\receptsorttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\receptsorttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\ocjenatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\shoppinglistservice\\shoppinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\shoppinglistservice\\shoppinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbook\\services\\recipeservice\\receptsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BDEFBD9-197C-4288-9DF1-F1BE94D44EED}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\services\\recipeservice\\receptsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|c:\\users\\user\\desktop\\vvs-vjezbe\\cookbook\\cookbooktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B9A577-6F59-4414-89BE-882CC6E2BC60}|CookBookTests\\CookBookTests.csproj|solutionrelative:cookbooktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,21 +106,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IngredientServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\IngredientServiceTest.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\IngredientServiceTest.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\IngredientServiceTest.cs",
-              "RelativeToolTip": "CookBookTests\\IngredientServiceTest.cs",
-              "ViewState": "AgIAAMgAAAAAAAAAAIAwwIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:04:47.192Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -111,15 +118,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IngredientService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "RelativeDocumentMoniker": "CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "RelativeToolTip": "CookBook\\Services\\IngredientService\\IngredientService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "DataExportImportServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\DataExportImportServiceTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\DataExportImportServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\DataExportImportServiceTests.cs",
+              "RelativeToolTip": "CookBookTests\\DataExportImportServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:02:18.964Z",
+              "WhenOpened": "2024-11-22T18:54:42.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IngredientServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\IngredientServiceTest.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\IngredientServiceTest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\IngredientServiceTest.cs",
+              "RelativeToolTip": "CookBookTests\\IngredientServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:04:47.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\MSTestSettings.cs",
+              "RelativeToolTip": "CookBookTests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:16:51.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OcjenaTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\OcjenaTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\OcjenaTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\OcjenaTests.cs",
+              "RelativeToolTip": "CookBookTests\\OcjenaTests.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:14:52.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReceptSortTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\ReceptSortTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\ReceptSortTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\ReceptSortTests.cs",
+              "RelativeToolTip": "CookBookTests\\ReceptSortTests.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowCsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:27:32.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipeServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\RecipeServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
+              "RelativeToolTip": "CookBookTests\\RecipeServiceTests.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAAAqwHwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T00:06:30.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingListaServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\ShoppingListaServiceTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\ShoppingListaServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\ShoppingListaServiceTests.cs",
+              "RelativeToolTip": "CookBookTests\\ShoppingListaServiceTests.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwAgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:50:33.953Z",
               "EditorCaption": ""
             },
             {
@@ -128,59 +213,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "AutentificationServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\AutentificationServiceTests.cs",
+              "RelativeDocumentMoniker": "CookBookTests\\AutentificationServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\AutentificationServiceTests.cs",
+              "RelativeToolTip": "CookBookTests\\AutentificationServiceTests.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:41:59.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataExportImportService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\DataExportImportService\\DataExportImportService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\DataExportImportService\\DataExportImportService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\DataExportImportService\\DataExportImportService.cs",
+              "RelativeToolTip": "CookBook\\Services\\DataExportImportService\\DataExportImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T19:08:34.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDataExportImportService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\DataExportImportService\\IDataExportImportService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\DataExportImportService\\IDataExportImportService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\DataExportImportService\\IDataExportImportService.cs",
+              "RelativeToolTip": "CookBook\\Services\\DataExportImportService\\IDataExportImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:46:59.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "RelativeToolTip": "CookBook\\Services\\IngredientService\\IngredientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:02:18.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Cobertura.xml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml",
               "RelativeDocumentMoniker": "CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml",
               "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml",
               "RelativeToolTip": "CookBookTests\\bin\\Debug\\net8.0\\fine-code-coverage\\coverage-tool-output\\Cobertura.xml",
-              "ViewState": "AgIAAMYCAAAAAAAAAAAAAA8DAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-11-22T00:26:24.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShoppingList.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\ShoppingList.cs",
-              "RelativeDocumentMoniker": "CookBook\\Models\\ShoppingList.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\ShoppingList.cs",
-              "RelativeToolTip": "CookBook\\Models\\ShoppingList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:12:52.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SastojakKolicina.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\SastojakKolicina.cs",
-              "RelativeDocumentMoniker": "CookBook\\Models\\SastojakKolicina.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\SastojakKolicina.cs",
-              "RelativeToolTip": "CookBook\\Models\\SastojakKolicina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:12:48.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UI.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\UI.cs",
-              "RelativeDocumentMoniker": "CookBook\\UI.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\UI.cs",
-              "RelativeToolTip": "CookBook\\UI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:10:10.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "CookBookTests.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
               "RelativeDocumentMoniker": "CookBookTests\\CookBookTests.csproj",
@@ -193,20 +291,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecipeServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\RecipeServiceTests.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\RecipeServiceTests.cs",
-              "RelativeToolTip": "CookBookTests\\RecipeServiceTests.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwDABAABIAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\UI.cs",
+              "RelativeDocumentMoniker": "CookBook\\UI.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\UI.cs",
+              "RelativeToolTip": "CookBook\\UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T00:06:30.542Z",
+              "WhenOpened": "2024-11-22T00:10:10.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "CookBook\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Recipe.cs",
+              "RelativeToolTip": "CookBook\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:07:30.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "ShoppingListService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "RelativeDocumentMoniker": "CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "RelativeToolTip": "CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:30:34.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SastojakKolicina.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\SastojakKolicina.cs",
+              "RelativeDocumentMoniker": "CookBook\\Models\\SastojakKolicina.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\SastojakKolicina.cs",
+              "RelativeToolTip": "CookBook\\Models\\SastojakKolicina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:12:48.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShoppingList.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\ShoppingList.cs",
+              "RelativeDocumentMoniker": "CookBook\\Models\\ShoppingList.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\ShoppingList.cs",
+              "RelativeToolTip": "CookBook\\Models\\ShoppingList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:12:52.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "RecipeNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\RecipeNotFoundException.cs",
               "RelativeDocumentMoniker": "CookBook\\Models\\RecipeNotFoundException.cs",
@@ -214,12 +361,11 @@
               "RelativeToolTip": "CookBook\\Models\\RecipeNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:12:22.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T00:12:22.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "RecipeService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\RecipeService\\RecipeService.cs",
               "RelativeDocumentMoniker": "CookBook\\Services\\RecipeService\\RecipeService.cs",
@@ -227,12 +373,11 @@
               "RelativeToolTip": "CookBook\\Services\\RecipeService\\RecipeService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:07:51.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T09:07:51.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "Ocjena.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Ocjena.cs",
               "RelativeDocumentMoniker": "CookBook\\Models\\Ocjena.cs",
@@ -240,12 +385,11 @@
               "RelativeToolTip": "CookBook\\Models\\Ocjena.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:12:12.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T00:12:12.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Ingredient.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Ingredient.cs",
               "RelativeDocumentMoniker": "CookBook\\Models\\Ingredient.cs",
@@ -253,12 +397,11 @@
               "RelativeToolTip": "CookBook\\Models\\Ingredient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:12:05.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T00:12:05.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Program.cs",
               "RelativeDocumentMoniker": "CookBook\\Program.cs",
@@ -266,24 +409,11 @@
               "RelativeToolTip": "CookBook\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:30:32.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T14:30:32.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OcjenaTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\OcjenaTests.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\OcjenaTests.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\OcjenaTests.cs",
-              "RelativeToolTip": "CookBookTests\\OcjenaTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:14:52.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "ReceptSort.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\RecipeService\\ReceptSort.cs",
               "RelativeDocumentMoniker": "CookBook\\Services\\RecipeService\\ReceptSort.cs",
@@ -292,56 +422,6 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwCwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T09:25:08.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Recipe.cs",
-              "RelativeDocumentMoniker": "CookBook\\Models\\Recipe.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Models\\Recipe.cs",
-              "RelativeToolTip": "CookBook\\Models\\Recipe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:07:30.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReceptSortTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\ReceptSortTests.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\ReceptSortTests.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\ReceptSortTests.cs",
-              "RelativeToolTip": "CookBookTests\\ReceptSortTests.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:27:32.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "CookBookTests\\MSTestSettings.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\MSTestSettings.cs",
-              "RelativeToolTip": "CookBookTests\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:16:51.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ShoppingListService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
-              "RelativeDocumentMoniker": "CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
-              "RelativeToolTip": "CookBook\\Services\\ShoppingListService\\ShoppingListService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:30:34.309Z"
             }
           ]
         }
