@@ -9,6 +9,7 @@ namespace Services
     {
         private readonly Dictionary<string, string> korisnici = new Dictionary<string, string>();
 
+        [ExcludeFromCodeCoverage]
         public string CitajLozinku()
         {
             string lozinka = string.Empty;
