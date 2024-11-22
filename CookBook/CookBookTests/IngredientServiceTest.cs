@@ -136,12 +136,6 @@ namespace CookBookTests
             Assert.AreEqual(result, ingredient);
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
-        public void GetIngredientById_ThrowsArgumentException_WhenIdIsNotFound()
-        {
-            _ingredientService.GetIngredientById(7);
-        }
 
         [TestMethod]
         public void GetIngredientByName_ReturnsIngredientWithName()

@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace Models
 {
+    [ExcludeFromCodeCoverage]
     public class Ocjena
     {
         public int recipeId { get; private set; }

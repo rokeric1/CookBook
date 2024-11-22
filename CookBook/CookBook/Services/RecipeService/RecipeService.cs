@@ -77,11 +77,12 @@ namespace Services
                 (string.IsNullOrEmpty(sastojak) || recept.Sastojci.Keys.Any(s =>
                 {
                     var ingredient = ingredientService.GetIngredientById(s);
-                    return ingredient != null && ingredient.Naziv.Contains(sastojak, StringComparison.OrdinalIgnoreCase);
+                    return ingredient?.Naziv.Contains(sastojak, StringComparison.OrdinalIgnoreCase) == true;
                 })) &&
                 (minPopularnost == -1 || recept.Popularnost >= minPopularnost)
             ).ToList();
         }
+
         public int GetNextId()
         {
             return currentRecipeId++;

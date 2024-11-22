@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CookBook",
+    "\\CookBook\\CookBook",
+    "\\CookBook\\CookBookTests"
   ],
-  "SelectedNode": "\\CookBook.sln",
+  "SelectedNode": "\\CookBook\\CookBookTests\\ReceptSortTests.cs",
   "PreviewInSolutionExplorer": false
 }

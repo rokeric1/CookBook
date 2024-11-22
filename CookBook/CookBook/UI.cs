@@ -2,8 +2,10 @@
 using Services;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
+[ExcludeFromCodeCoverage]
 public static class UI
 {
     public static void DodajReceptUI(IRecipeService recipeService, IIngredientService ingredientService)

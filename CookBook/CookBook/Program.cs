@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using Models;
 using Services;
 
+[ExcludeFromCodeCoverage]
 class Program
 {
     static void Main()

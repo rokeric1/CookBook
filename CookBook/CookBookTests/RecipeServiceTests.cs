@@ -294,5 +294,25 @@ namespace CookBookTests
             Assert.AreEqual("Torta", result[0].Naziv);
         }
 
+        [TestMethod]
+        public void PretraziPoAtributima_ShouldSkipInvalidIngredients_WhenIngredientDoesNotExist()
+        {
+            // Arrange
+            _recipeService.DodajRecept(new Recipe
+            {
+                Naziv = "Test Recipe",
+                VrijemePripreme = 30,
+                Sastojci = new Dictionary<int, double> { { 999, 100 } },
+                Popularnost = 5
+            });
+
+            // Act
+            var result = _recipeService.PretraziPoAtributima(sastojak: "Nepostojeći");
+
+            // Assert
+            Assert.AreEqual(0, result.Count); 
+        }
+
+
     }
 }

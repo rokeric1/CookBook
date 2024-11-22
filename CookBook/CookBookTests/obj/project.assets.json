@@ -2553,25 +2553,31 @@
       "CookBook >= 1.0.0",
       "MSTest >= 3.6.1",
       "MSTest.TestAdapter >= 3.6.3",
+      "MSTest.TestFramework >= 3.6.3",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "Microsoft.Testing.Extensions.CodeCoverage >= 17.12.6",
       "Microsoft.Testing.Extensions.TrxReport >= 1.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
       "projectName": "CookBookTests",
-      "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
-      "packagesPath": "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBookTests\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBookTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Umihana Šečunović\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2579,15 +2585,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
-              "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\vvs\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj"
+            "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj"
             }
           }
         }
@@ -2600,8 +2605,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2612,6 +2618,10 @@
             "version": "[3.6.1, )"
           },
           "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[3.6.3, )"
+          },
+          "MSTest.TestFramework": {
             "target": "Package",
             "version": "[3.6.3, )"
           },
@@ -2644,7 +2654,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2660,9 +2670,10 @@
       ]
     },
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for MSTest.TestFramework. Install/reference MSTest.TestFramework 3.6.3 directly to project CookBookTests to resolve this issue. \r\n CookBookTests -> CookBook -> MSTest.TestFramework (>= 3.6.3) \r\n CookBookTests -> MSTest 3.6.1 -> MSTest.TestFramework (= 3.6.1).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MSTest 3.6.1 requires MSTest.TestFramework (= 3.6.1) but version MSTest.TestFramework 3.6.3 was resolved.",
       "libraryId": "MSTest.TestFramework",
       "targetGraphs": [
         "net8.0"

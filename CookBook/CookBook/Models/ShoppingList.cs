@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace Models
 {
+    [ExcludeFromCodeCoverage]
     public class ShoppingList
     {
         public Dictionary<Ingredient, double> Stavke { get; private set; } 

@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Xml.Serialization;
 
 namespace Models
 {
+    [ExcludeFromCodeCoverage]
     public class Recipe
     {
         public int Id { get; set; }

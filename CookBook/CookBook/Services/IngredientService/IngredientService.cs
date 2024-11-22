@@ -38,13 +38,9 @@ namespace Services
 
         public Ingredient GetIngredientById(int id)
         {
-            var ingredient = ingredients.FirstOrDefault(i => i.Id == id);
-            if (ingredient == null)
-            {
-                throw new ArgumentException($"Sastojak sa navedenim Id ne postoji");
-            }
-            return ingredient;
+            return ingredients.FirstOrDefault(i => i.Id == id);
         }
+
 
         public Ingredient GetIngredientByName(string naziv)
         {

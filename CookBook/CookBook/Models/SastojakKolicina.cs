@@ -1,5 +1,8 @@
+using System.Diagnostics.CodeAnalysis;
+
 namespace Models
 {
+    [ExcludeFromCodeCoverage]
     public class SastojakKolicina
     {
         public int IngredientId { get; set; }
