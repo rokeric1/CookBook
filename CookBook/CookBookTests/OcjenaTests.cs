@@ -13,21 +13,17 @@ namespace CookBookTests
         [TestInitialize]
         public void SetUp()
         {
-            // Inicijalizuj OcjenaService pre svakog testa
             _ocjenaService = new OcjenaService();
         }
 
         [TestMethod]
         public void DodajOcjenu_NovaOcjena_DodajePravilno()
         {
-            // Arrange
             int recipeId = 1;
             int ocjena = 5;
 
-            // Act
             _ocjenaService.DodajOcjenu(recipeId, ocjena);
 
-            // Assert
             var sveOcjene = _ocjenaService.GetSveOcjene(recipeId);
             Assert.AreEqual(1, sveOcjene.Count);
             Assert.AreEqual(ocjena, sveOcjene[0]);
