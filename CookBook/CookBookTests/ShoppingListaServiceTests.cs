@@ -123,7 +123,7 @@ namespace CookBookTests
             // Assert
             StringAssert.Contains(result, "Jabuka");
             StringAssert.Contains(result, "Količina: 2");
-            StringAssert.Contains(result, "Ukupno: $6.00");
+            StringAssert.Contains(result, "Ukupno: £6.00");
         }
 
         [TestMethod]
@@ -171,7 +171,7 @@ namespace CookBookTests
             // Assert
             StringAssert.Contains(result, "Jabuka");
             StringAssert.Contains(result, "Količina: 2");
-            StringAssert.Contains(result, "Ukupno: $6.00");
+            StringAssert.Contains(result, "Ukupno: £6.00");
             StringAssert.Contains(result, "Id: 2 nije pronađen."); 
         }
 

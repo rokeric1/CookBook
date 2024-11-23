@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wblDDMunJnE=",
+  "dgSpecHash": "u0fumAvkxuk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+  "projectFilePath": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.4.3\\microsoft.testing.extensions.telemetry.1.4.3.nupkg.sha512",

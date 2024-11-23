@@ -10,9 +10,7 @@ fine-code-coverage/
 *.vsidx
 *.testlog
 
-# Ignoriši Debug i Release foldere
-Debug/
-Release/
+
 
 # Ignoriši NuGet artefakte
 *.nupkg

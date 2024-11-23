@@ -2693,11 +2693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+      "projectUniqueName": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
       "projectName": "CookBookTests",
-      "projectPath": "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+      "projectPath": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
       "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBookTests\\obj\\",
+      "outputPath": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBookTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2718,8 +2718,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
-              "projectPath": "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj"
+            "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj": {
+              "projectPath": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj"
             }
           }
         }

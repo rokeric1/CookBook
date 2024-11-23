@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/dWM9+o17+4=",
+  "dgSpecHash": "RxSupMQFxrc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdul\\Desktop\\vvs-novo\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
+  "projectFilePath": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBookTests\\CookBookTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
