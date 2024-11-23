@@ -1,0 +1,144 @@
+[
+  {
+    "Id": 1,
+    "Naziv": "Pasta Carbonara",
+    "Sastojci": {
+      "1": 200,
+      "2": 2,
+      "3": 50
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 20,
+    "Upute": "Skuhaj pastu. Przi pancetu. Pomijesaj jaja sa sirom. Sve sjedini s pastom.",
+    "Popularnost": 4
+  },
+  {
+    "Id": 2,
+    "Naziv": "Piletina s paprikom",
+    "Sastojci": {
+      "7": 300,
+      "8": 2,
+      "4": 20,
+      "5": 1
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 30,
+    "Upute": "Pripremi piletinu i papriku. Przi luk i cesnjak u maslinovom ulju, dodaj piletinu i papriku. Kuhaj dok piletina ne bude gotova.",
+    "Popularnost": 5
+  },
+  {
+    "Id": 3,
+    "Naziv": "Rizoto s gljivama",
+    "Sastojci": {
+      "11": 200,
+      "4": 15,
+      "5": 1,
+      "6": 2,
+      "14": 100
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 40,
+    "Upute": "Pripremi rizu. Przi luk i cesnjak u maslinovom ulju, dodaj gljive i kuhaj. Dodaj rizu i povrce. Kuhaj dok riza ne omeksa.",
+    "Popularnost": 3
+  },
+  {
+    "Id": 4,
+    "Naziv": "Vegetarijanska salata",
+    "Sastojci": {
+      "5": 1,
+      "6": 1,
+      "8": 1,
+      "9": 50,
+      "10": 30
+    },
+    "Kategorija": "Salata",
+    "VrijemePripreme": 10,
+    "Upute": "Iseckaj luk, cesnjak, papriku i masline. Pomijesaj s kiselim krastavcima. Prelij maslinovim uljem.",
+    "Popularnost": 2
+  },
+  {
+    "Id": 5,
+    "Naziv": "Piletina s rizom",
+    "Sastojci": {
+      "7": 300,
+      "13": 200,
+      "4": 15,
+      "5": 1,
+      "6": 2
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 35,
+    "Upute": "Pripremi piletinu i rizu. Przi luk i cesnjak u maslinovom ulju, dodaj piletinu i rizu. Dodaj vodu i kuhaj dok riza ne bude gotova.",
+    "Popularnost": 4
+  },
+  {
+    "Id": 6,
+    "Naziv": "Jaja na oko s parmezanom",
+    "Sastojci": {
+      "2": 3,
+      "3": 20,
+      "4": 10
+    },
+    "Kategorija": "Dorucak",
+    "VrijemePripreme": 10,
+    "Upute": "Przi jaja na maslinovom ulju, pospi parmezanom i kuhaj dok se sir ne otopi.",
+    "Popularnost": 3
+  },
+  {
+    "Id": 7,
+    "Naziv": "Grilovana piletina s maslinama",
+    "Sastojci": {
+      "7": 250,
+      "10": 50,
+      "4": 10
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 25,
+    "Upute": "Zacini piletinu i griluj je. Dodaj masline i maslinovo ulje na kraju kuhanja.",
+    "Popularnost": 5
+  },
+  {
+    "Id": 8,
+    "Naziv": "Govedji gulas",
+    "Sastojci": {
+      "11": 400,
+      "5": 2,
+      "6": 3,
+      "8": 2,
+      "4": 30
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 60,
+    "Upute": "Przi luk i cesnjak u maslinovom ulju, dodaj govedinu i przi dok ne porumeni. Dodaj papriku i kuhaj na laganoj vatri dok meso ne omeksa.",
+    "Popularnost": 4
+  },
+  {
+    "Id": 9,
+    "Naziv": "Riblji file s spinatom",
+    "Sastojci": {
+      "12": 300,
+      "14": 150,
+      "4": 15,
+      "5": 1
+    },
+    "Kategorija": "Glavno jelo",
+    "VrijemePripreme": 25,
+    "Upute": "Przi riblji file u maslinovom ulju, dodaj spinat i przi dok spinat ne omeksa. Zacini po zelji.",
+    "Popularnost": 5
+  },
+  {
+    "Id": 10,
+    "Naziv": "Krem juha od spinata",
+    "Sastojci": {
+      "14": 200,
+      "15": 250,
+      "5": 1,
+      "6": 2,
+      "4": 10
+    },
+    "Kategorija": "Juha",
+    "VrijemePripreme": 30,
+    "Upute": "Przi luk i cesnjak u maslinovom ulju, dodaj spinat i kuhaj. Dodaj mlijeko i kuhaj dok ne postane krem juha. Blendaj do glatke teksture.",
+    "Popularnost": 3
+  }
+]

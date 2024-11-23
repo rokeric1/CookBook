@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "Naziv": "Pasta",
+    "Nutrijenti": "Ugljikohidrati",
+    "EkoUtjecaj": 1.2,
+    "Cijena": 2.5,
+    "Dostupan": true
+  },
+  {
+    "Id": 2,
+    "Naziv": "Jaja",
+    "Nutrijenti": "Proteini",
+    "EkoUtjecaj": 0.9,
+    "Cijena": 0.6,
+    "Dostupan": true
+  },
+  {
+    "Id": 3,
+    "Naziv": "Parmezan",
+    "Nutrijenti": "Masti i proteini",
+    "EkoUtjecaj": 1.5,
+    "Cijena": 3.0,
+    "Dostupan": true
+  },
+  {
+    "Id": 4,
+    "Naziv": "Maslinovo ulje",
+    "Nutrijenti": "Masti",
+    "EkoUtjecaj": 1.1,
+    "Cijena": 1.8,
+    "Dostupan": true
+  },
+  {
+    "Id": 5,
+    "Naziv": "Luk",
+    "Nutrijenti": "Vitamini",
+    "EkoUtjecaj": 0.7,
+    "Cijena": 0.4,
+    "Dostupan": true
+  },
+  {
+    "Id": 6,
+    "Naziv": "Češnjak",
+    "Nutrijenti": "Vitamini i minerali",
+    "EkoUtjecaj": 0.8,
+    "Cijena": 0.5,
+    "Dostupan": true
+  },
+  {
+    "Id": 7,
+    "Naziv": "Piletina",
+    "Nutrijenti": "Proteini",
+    "EkoUtjecaj": 1.3,
+    "Cijena": 4.0,
+    "Dostupan": true
+  },
+  {
+    "Id": 8,
+    "Naziv": "Paprika",
+    "Nutrijenti": "Vitamini",
+    "EkoUtjecaj": 0.6,
+    "Cijena": 1.0,
+    "Dostupan": true
+  },
+  {
+    "Id": 9,
+    "Naziv": "Kiseli krastavci",
+    "Nutrijenti": "Vitamini i minerali",
+    "EkoUtjecaj": 0.5,
+    "Cijena": 0.8,
+    "Dostupan": true
+  },
+  {
+    "Id": 10,
+    "Naziv": "Masline",
+    "Nutrijenti": "Masti i vitamini",
+    "EkoUtjecaj": 1.0,
+    "Cijena": 2.0,
+    "Dostupan": true
+  },
+  {
+    "Id": 11,
+    "Naziv": "Govedina",
+    "Nutrijenti": "Proteini i masti",
+    "EkoUtjecaj": 2.0,
+    "Cijena": 5.0,
+    "Dostupan": true
+  },
+  {
+    "Id": 12,
+    "Naziv": "Riba",
+    "Nutrijenti": "Proteini i omega-3",
+    "EkoUtjecaj": 1.8,
+    "Cijena": 6.0,
+    "Dostupan": true
+  },
+  {
+    "Id": 13,
+    "Naziv": "Riža",
+    "Nutrijenti": "Ugljikohidrati",
+    "EkoUtjecaj": 0.9,
+    "Cijena": 1.5,
+    "Dostupan": true
+  },
+  {
+    "Id": 14,
+    "Naziv": "Špinat",
+    "Nutrijenti": "Vitamini i minerali",
+    "EkoUtjecaj": 0.4,
+    "Cijena": 1.2,
+    "Dostupan": true
+  },
+  {
+    "Id": 15,
+    "Naziv": "Mlijeko",
+    "Nutrijenti": "Proteini i kalcij",
+    "EkoUtjecaj": 1.0,
+    "Cijena": 0.9,
+    "Dostupan": true
+  }
+]

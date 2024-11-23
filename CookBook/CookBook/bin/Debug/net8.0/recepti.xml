@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRecipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Recipe>
+    <Id>1</Id>
+    <Naziv>Pasta Carbonara</Naziv>
+    <Kategorija>Glavno jelo</Kategorija>
+    <VrijemePripreme>20</VrijemePripreme>
+    <Upute>Skuhaj pastu. Przi pancetu. Pomijesaj jaja sa sirom. Sve sjedini s pastom.</Upute>
+    <Popularnost>4</Popularnost>
+    <Sastojci>
+      <SastojakKolicina>
+        <IngredientId>1</IngredientId>
+        <Kolicina>200</Kolicina>
+      </SastojakKolicina>
+      <SastojakKolicina>
+        <IngredientId>2</IngredientId>
+        <Kolicina>2</Kolicina>
+      </SastojakKolicina>
+      <SastojakKolicina>
+        <IngredientId>3</IngredientId>
+        <Kolicina>50</Kolicina>
+      </SastojakKolicina>
+    </Sastojci>
+  </Recipe>
+</ArrayOfRecipe>
