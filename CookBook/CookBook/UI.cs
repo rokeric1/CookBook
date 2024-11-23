@@ -582,4 +582,96 @@ public static class UI
             Console.WriteLine($"{recept} | Prosječna ocjena: {ocjenaText}");
         }
     }
+
+    public static void KreirajTagUI(TagService tagService)
+    {
+        Console.Write("Unesite naziv taga: ");
+        string nazivTaga = Console.ReadLine() ?? "";
+        try
+        {
+            tagService.KreirajTag(nazivTaga);
+            Console.WriteLine($"Tag '{nazivTaga}' je uspješno kreiran.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void DodajReceptUTagUI(TagService tagService, IRecipeService recipeService)
+    {
+        Console.Write("Unesite naziv taga: ");
+        string nazivTaga = Console.ReadLine() ?? "";
+        Console.Write("Unesite ID recepta koji želite dodati: ");
+        if (int.TryParse(Console.ReadLine(), out int receptId))
+        {
+            try
+            {
+                tagService.DodajReceptUTag(nazivTaga, receptId);
+                Console.WriteLine($"Recept ID {receptId} je dodan u tag '{nazivTaga}'.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Greška: {ex.Message}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Neispravan unos za ID recepta.");
+        }
+    }
+
+    public static void PrikaziRecepteZaTagUI(TagService tagService, IRecipeService recipeService)
+    {
+        Console.Write("Unesite naziv taga: ");
+        string nazivTaga = Console.ReadLine() ?? "";
+        try
+        {
+            var recepti = tagService.PrikaziRecepteZaTag(nazivTaga, recipeService);
+            Console.WriteLine($"Recepti za tag '{nazivTaga}':");
+            foreach (var recept in recepti)
+            {
+                Console.WriteLine($"- {recept.Naziv} (ID: {recept.Id})");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void PrikaziSveTagoveUI(TagService tagService)
+    {
+        var tagovi = tagService.PrikaziSveTagove();
+        if (tagovi.Count == 0)
+        {
+            Console.WriteLine("Nema dostupnih tagova.");
+        }
+        else
+        {
+            Console.WriteLine("Dostupni tagovi:");
+            foreach (var tag in tagovi)
+            {
+                Console.WriteLine($"- {tag.Naziv}");
+            }
+        }
+    }
+
+    public static void ObrisiTagUI(TagService tagService)
+    {
+        Console.Write("Unesite naziv taga za brisanje: ");
+        string nazivTaga = Console.ReadLine() ?? "";
+        try
+        {
+            tagService.ObrisiTag(nazivTaga);
+            Console.WriteLine($"Tag '{nazivTaga}' je uspješno obrisan.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+
+
 }
