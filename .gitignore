@@ -2,9 +2,6 @@
 .vs/
 *.suo
 
-# Bin i obj direktorijumi
-bin/
-obj/
 
 # Fine code coverage privremeni fajlovi
 fine-code-coverage/
