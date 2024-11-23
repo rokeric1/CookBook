@@ -1,0 +1,23 @@
+# Visual Studio privremeni fajlovi
+.vs/
+*.suo
+
+# Bin i obj direktorijumi
+bin/
+obj/
+
+# Fine code coverage privremeni fajlovi
+fine-code-coverage/
+
+# Ostali privremeni fajlovi
+*.log
+*.vsidx
+*.testlog
+
+# Ignoriši Debug i Release foldere
+Debug/
+Release/
+
+# Ignoriši NuGet artefakte
+*.nupkg
+project.lock.json
