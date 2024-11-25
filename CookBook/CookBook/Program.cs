@@ -15,6 +15,7 @@ class Program
         var dataService = new DataExportImportService(ingredientService);
         var shoppingListService = new ShoppingListService(ingredientService);
         var tagService = new TagService(); // Dodavanje TagService
+        var converterService = new MeasurementConverterService();
 
         Console.WriteLine("Dobrodošli u aplikaciju za upravljanje receptima!");
         Console.WriteLine("Registracija korisnika:");
@@ -78,6 +79,7 @@ class Program
             Console.WriteLine("11. Ocijeni recept");
             Console.WriteLine("12. Prikaži prosjecnu ocjenu recepta");
             Console.WriteLine("13. Tagovi (podmeni)");
+            Console.WriteLine("14. Konverzija jedinica");
             Console.WriteLine("0. Izlaz");
             Console.Write("Vaš izbor: ");
             string choice = Console.ReadLine();
@@ -122,6 +124,9 @@ class Program
                     break;
                 case "13":
                     TagMenu(tagService, recipeService);
+                    break;
+                case "14":
+                    Converter(converterService);
                     break;
                 case "0":
                     Console.WriteLine("Doviđenja!");
@@ -170,6 +175,59 @@ class Program
                     Console.WriteLine("Nepoznata opcija, pokušajte ponovo.");
                     break;
             }
+        }
+    }
+
+    static void Converter( MeasurementConverterService converter)
+    {
+        Console.WriteLine("Odaberite konverziju");
+        Console.WriteLine("1. Cups u Millilitre");
+        Console.WriteLine("2. Millilitre u Cups");
+        Console.WriteLine("3. Teaspoons u Millilitre");
+        Console.WriteLine("4. Millilitre u Teaspoons");
+        Console.WriteLine("5. Ounces u Grame");
+        Console.WriteLine("6. Grame u Ounces");
+        Console.WriteLine("7. Pounds u Kilograme");
+        Console.WriteLine("8. Kilograme u Pounds");
+        Console.WriteLine("9. Fahrenheit u Celzius");
+
+        Console.Write("Vaš izbor: ");
+        string choice = Console.ReadLine();
+
+        switch (choice)
+        {
+            case "1":
+                UI.CupsToMililitersUI(converter);
+                break;
+            case "2":
+                UI.MillilitersToCupsUI(converter);
+                break;
+            case "3":
+                UI.TeaspoonsToMillilitersUI(converter);
+                break;
+            case "4":
+                UI.MillilitersToTeaspoonsUI(converter);
+                break;
+            case "5":
+                UI.OuncesToGramsUI(converter);
+                break;
+            case "6":
+                UI.GramsToOuncesUI(converter);
+                break;
+            case "7":
+                UI.PoundsToKilogramsUI(converter);
+                break;
+            case "8":
+                UI.KilogramsToPoundsUI(converter);
+                break;
+            case "9":
+                UI.FahrenheitToCelsiusUI(converter);
+                break;
+            case "0":
+                return; 
+            default:
+                Console.WriteLine("Nepostojeća konverzija!");
+                break;
         }
     }
 }

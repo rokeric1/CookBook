@@ -1030,10 +1030,7 @@
           "MSTest.TestFramework": "3.6.3"
         },
         "runtime": {
-          "CookBook.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CookBook.dll": {}
         }
       },
       "Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter/14.0.0.0": {

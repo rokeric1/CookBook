@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "u0fumAvkxuk=",
+  "dgSpecHash": "17DmddDGw38=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdul\\Desktop\\vvs-final\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
+  "projectFilePath": "C:\\Users\\Korisnik\\Documents\\_________\\III Godina\\VVS\\CookBook-v2\\VVS-vjezbe\\CookBook\\CookBook\\CookBook.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.4.3\\microsoft.testing.extensions.telemetry.1.4.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.4.3\\microsoft.testing.extensions.trxreport.abstractions.1.4.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.4.3\\microsoft.testing.extensions.vstestbridge.1.4.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testing.platform\\1.4.3\\microsoft.testing.platform.1.4.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.4.3\\microsoft.testing.platform.msbuild.1.4.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.11.1\\microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\mstest.testadapter\\3.6.3\\mstest.testadapter.3.6.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\mstest.testframework\\3.6.3\\mstest.testframework.3.6.3.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.4.3\\microsoft.testing.extensions.telemetry.1.4.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.4.3\\microsoft.testing.extensions.trxreport.abstractions.1.4.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.4.3\\microsoft.testing.extensions.vstestbridge.1.4.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.testing.platform\\1.4.3\\microsoft.testing.platform.1.4.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.4.3\\microsoft.testing.platform.msbuild.1.4.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.11.1\\microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\mstest.testadapter\\3.6.3\\mstest.testadapter.3.6.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\mstest.testframework\\3.6.3\\mstest.testframework.3.6.3.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }

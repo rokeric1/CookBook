@@ -672,6 +672,142 @@ public static class UI
         }
     }
 
+    public static void CupsToMililitersUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u cups: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.CupsToMilliliters(kolicina);
+            Console.WriteLine($"{kolicina} cups = {Math.Round(result,2)} millilitara");
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void MillilitersToCupsUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u millilitrima: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.MillilitersToCups(kolicina);
+            Console.WriteLine($"{kolicina} millilitara = {Math.Round(result, 2)} cups");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void TeaspoonsToMillilitersUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u teaspoons: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.TeaspoonsToMilliliters(kolicina);
+            Console.WriteLine($"{kolicina} teaspoons = {Math.Round(result, 2)} millilitara");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void MillilitersToTeaspoonsUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u millilitrima: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.MillilitersToTeaspoons(kolicina);
+            Console.WriteLine($"{kolicina} millilitara = {Math.Round(result, 2)} teaspoons");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void OuncesToGramsUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u ounces: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.OuncesToGrams(kolicina);
+            Console.WriteLine($"{kolicina} ounces = {Math.Round(result, 2)} grama");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void GramsToOuncesUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u gramima: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.GramsToOunces(kolicina);
+            Console.WriteLine($"{kolicina} grama = {Math.Round(result, 2)} ounces");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void PoundsToKilogramsUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u pounds: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.PoundsToKilograms(kolicina);
+            Console.WriteLine($"{kolicina} pounds = {Math.Round(result, 2)} kilograma");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void KilogramsToPoundsUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite količinu u kilogramima: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.KilogramsToPounds(kolicina);
+            Console.WriteLine($"{kolicina} kilograma = {Math.Round(result, 2)} pounds");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
+    public static void FahrenheitToCelsiusUI(MeasurementConverterService converter)
+    {
+        Console.Write("Unesite temperaturu u Fahrenheit: ");
+        double kolicina = double.Parse(Console.ReadLine());
+        try
+        {
+            double result = converter.FahrenheitToCelsius(kolicina);
+            Console.WriteLine($"{kolicina} °F = {Math.Round(result, 2)} °C");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška: {ex.Message}");
+        }
+    }
+
 
 
 }
