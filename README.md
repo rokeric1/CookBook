@@ -24,7 +24,8 @@ This project demonstrates **V&V techniques** applied during software development
 
 ### Verification 
 - Code reviews and static analysis  
-- Unit testing of core functionalities (adding, deleting, searching recipes)  
+- Unit testing
+- Test-Driven Development (TDD)
 - Consistency checks on recipe data structures  
 
 ### Validation 
@@ -36,7 +37,7 @@ This project demonstrates **V&V techniques** applied during software development
 
 ## Technologies Used
 - **Programming Language**: C# 
-- **Development Environment**: MIcrosoft Visual Studio
+- **Development Environment**: Microsoft Visual Studio
 - **Version Control**: Git & Azure DevOps
 
 
