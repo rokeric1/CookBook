@@ -27,7 +27,7 @@ This project demonstrates **V&V techniques** applied during software development
 - Unit testing of core functionalities (adding, deleting, searching recipes)  
 - Consistency checks on recipe data structures  
 
-### ✔ Validation 
+### Validation 
 - Requirements gathering: recipes should be easy to add, read, and manage  
 - Test cases executed based on user scenarios  
 - User acceptance testing with sample recipes  
@@ -37,7 +37,7 @@ This project demonstrates **V&V techniques** applied during software development
 ## Technologies Used
 - **Programming Language**: C# 
 - **Development Environment**: MIcrosoft Visual Studio
-- **Version Control**: Microsoft Azure 
+- **Version Control**: Git & Azure DevOps
 
 
 
