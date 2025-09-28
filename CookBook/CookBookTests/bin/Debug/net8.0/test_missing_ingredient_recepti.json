@@ -1,0 +1,1 @@
+[{"Id":1,"Naziv":"Test Recept","Sastojci":{"999":1},"Kategorija":"Test","VrijemePripreme":30,"Upute":"Instructions","Popularnost":4,"SastojciList":[{"IngredientId":999,"Kolicina":1}]}]
