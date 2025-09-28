@@ -6,7 +6,7 @@ Verification and validation of software course project - Cookbook Application
 
 This project was developed as part of the **Verification and Validation of Software** course.  
 It is a simple **Cookbook application** that allows users to add, store, and manage recipes.  
-The focus of the project was not only on functionality, but also on applying **verification** (are we building the product right?) and **validation** (are we building the right product?) techniques during development.
+The focus of the project was not only on functionality, but also on applying **verification** and **validation** techniques during development.
 
 ---
 
@@ -15,7 +15,7 @@ The focus of the project was not only on functionality, but also on applying **v
 - Edit and delete recipes  
 - Search and browse recipes  
 - Store and manage recipes in a structured way  
-- Console-based interface (lightweight and easy to test)  
+- Console-based interface  
 
 ---
 
